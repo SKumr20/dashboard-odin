@@ -53,7 +53,7 @@ body {
 
 .headerprofile {
     transition: 0.4s ease;
-    color: #ffffff6c;
+    color: var(--sidebarfontcolor);
     padding: 5px;
     display: flex;
     align-items: center;
