@@ -24,11 +24,22 @@ body {
 }
 
 .sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     color: var(--sidebarfontcolor);
     padding: 20px;
     background-color: var(--sidebarcolor);
     grid-column: 1 / 2;
     grid-row: 1 / 4;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar h1 {
+    font-size: 50px;
 }
 
 .main {
