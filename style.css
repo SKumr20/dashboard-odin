@@ -9,8 +9,10 @@
     --sidebarcolor: #111827;
     --headercolor: #111827;
     
-    --sidebarfontcolor: #9CA3AF;
+    --sidebarfontcolor: #f9fafb;
     --buttonradius1: 50px;
+
+
 }
 
 body {
@@ -87,7 +89,7 @@ body {
 }
 
 .sidebar h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .main {
