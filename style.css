@@ -5,10 +5,10 @@
 }
 
 :root {
-    --maincolor: #042f2e;
-    --sidebarcolor: #1e1e1e;
-    --headercolor: #064443;
-
+    --maincolor: #0c0a09;
+    --sidebarcolor: #111827;
+    --headercolor: #111827;
+    
     --sidebarfontcolor: #9CA3AF;
     --buttonradius1: 50px;
 }
@@ -32,19 +32,25 @@ body {
 }
 
 .headerSearch {
+    transition: 0.4s ease;
     color: #ffffff6c;
     padding: 5px;
     display: flex;
     align-items: center;
     justify-content:space-between;
-    background-color: #000000;
     height: 50%;
     width: 20%;
     background-color: var(--headercolor);
     border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.075);
+}
+
+.headerSearch:hover {
+    opacity: 0.5;
 }
 
 .headerprofile {
+    transition: 0.4s ease;
     color: #ffffff6c;
     padding: 5px;
     display: flex;
@@ -56,11 +62,16 @@ body {
     width: 15%;
     background-color: var(--headercolor);
     border-radius: var(--buttonradius1);
+    border: 1px solid rgba(255, 255, 255, 0.075);
 }
 
 #profilePic {
     height: 90%;
     border-radius: var(--buttonradius1);
+}
+
+.headerprofile:hover {
+    opacity: 0.5;
 }
 
 
