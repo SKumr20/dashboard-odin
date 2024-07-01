@@ -8,6 +8,8 @@
     --maincolor: #020617;
     --sidebarcolor: #0f172a;
     --headercolor: #1e293b;
+
+    --sidebarfontcolor: #9CA3AF;
 }
 
 body {
@@ -22,6 +24,8 @@ body {
 }
 
 .sidebar {
+    color: var(--sidebarfontcolor);
+    padding: 20px;
     background-color: var(--sidebarcolor);
     grid-column: 1 / 2;
     grid-row: 1 / 4;
