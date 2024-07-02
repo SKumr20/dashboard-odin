@@ -11,6 +11,7 @@
     
     --sidebarfontcolor: #f9fafb;
     --buttonradius1: 50px;
+    --sidebarRadius: 15px;
 
 
 }
@@ -82,7 +83,7 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 0px;
-    gap: 20px;
+    gap: 15px;
     color: var(--sidebarfontcolor);
     background-color: var(--sidebarcolor);
     grid-column: 1 / 2;
@@ -98,6 +99,7 @@ body {
 }
 
 .sidebartitle {
+    margin-top: 5px;
     padding: 20px;
 }
 
@@ -106,11 +108,11 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 15px;
     height: 15%;
     width: 90%;
     background-color: var(--maincolor);
-    border-radius: 15px;
+    border-radius: var(--sidebarRadius);
     font-size: 1.5rem;
 }
 
@@ -129,6 +131,7 @@ body {
 }
 
 .sidebarbtnsearch {
+    transition: 0.3s ease;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -141,3 +144,11 @@ body {
     opacity: 0.5;
 }
 
+.sidebar2 {
+    height: 70%;
+    width: 90%;
+    border-radius: ;
+    background-color: var(--maincolor);
+    border-radius: var(--sidebarRadius);
+    padding: 15px;
+}
