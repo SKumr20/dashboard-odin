@@ -152,3 +152,13 @@ body {
     border-radius: var(--sidebarRadius);
     padding: 15px;
 }
+
+.sidebar2home {
+    transition: 1s ease;
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    gap: 15px;
+}
+
+
