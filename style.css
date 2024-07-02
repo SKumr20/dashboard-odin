@@ -156,7 +156,7 @@ body {
     padding: 15px;
 }
 
-.sidebar2home {
+.sidebar2btns {
     transition: 0.2s ease;
     display: flex;
     align-items: center;
@@ -165,7 +165,7 @@ body {
     border-radius: var(--sidebarRadius);
 }
 
-.sidebar2home:hover{
+.sidebar2btns:hover{
     background-color: #111827;
 }
 
