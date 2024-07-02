@@ -80,9 +80,10 @@ body {
 .sidebar {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 0px;
     gap: 20px;
     color: var(--sidebarfontcolor);
-    padding: 20px;
     background-color: var(--sidebarcolor);
     grid-column: 1 / 2;
     grid-row: 1 / 4;
@@ -94,5 +95,49 @@ body {
 
 .main {
     background-color: var(--maincolor);
+}
+
+.sidebartitle {
+    padding: 20px;
+}
+
+.sidebar1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 15%;
+    width: 90%;
+    background-color: var(--maincolor);
+    border-radius: 15px;
+    font-size: 1.5rem;
+}
+
+.sidebarbtnhome {
+    transition: 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 50%;
+    width: 95%;
+}
+
+.sidebarbtnhome:hover {
+    cursor:default;
+    opacity: 0.5;
+}
+
+.sidebarbtnsearch {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    height: 50%;
+    width: 95%;
+}
+
+.sidebarbtnsearch:hover {
+    cursor: default;
+    opacity: 0.5;
 }
 
