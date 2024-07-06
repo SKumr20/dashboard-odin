@@ -94,10 +94,6 @@ body {
     font-size: 40px;
 }
 
-.main {
-    background-color: var(--maincolor);
-}
-
 .sidebartitle {
     margin-top: 5px;
     padding: 20px;
@@ -150,7 +146,6 @@ body {
     gap: 20px;
     height: 70%;
     width: 90%;
-    border-radius: ;
     background-color: var(--maincolor);
     border-radius: var(--sidebarRadius);
     padding: 15px;
@@ -168,5 +163,20 @@ body {
 .sidebar2btns:hover{
     background-color: #111827;
 }
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 300px;
+    background-color: var(--maincolor);
+}
+
+.mainContent {
+    background-color: wheat;
+}
+
+.sidebarRight {
+    background-color: white;
+}
+
 
 
