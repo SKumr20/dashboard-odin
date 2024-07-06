@@ -180,6 +180,7 @@ body {
     gap: 15px;
     background-color: var(--sidebarcolor);
     color: var(--sidebarfontcolor);
+    border-radius: var(--sidebarRadius);
 }
 
 .sidebarRight1 {
