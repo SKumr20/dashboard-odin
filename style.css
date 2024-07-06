@@ -26,8 +26,8 @@ body {
 }
 
 .header {
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
     background-color: var(--maincolor);
     display: flex;
     align-items: center;
@@ -82,7 +82,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
     gap: 15px;
     color: var(--sidebarfontcolor);
     background-color: var(--sidebarcolor);
@@ -171,11 +170,30 @@ body {
 }
 
 .mainContent {
-    background-color: wheat;
+
 }
 
 .sidebarRight {
-    background-color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: var(--sidebarcolor);
+}
+
+.sidebarRight1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--sidebarfontcolor);
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#nowPlaying {
+
+    height: 280px;
+
 }
 
 
