@@ -179,22 +179,38 @@ body {
     flex-direction: column;
     gap: 15px;
     background-color: var(--sidebarcolor);
+    color: var(--sidebarfontcolor);
 }
 
 .sidebarRight1 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: var(--sidebarfontcolor);
     font-weight: bold;
     font-size: 1.5rem;
 }
 
-#nowPlaying {
-
+#nowPlayingimg {
     height: 280px;
-
+    border-radius: var(--sidebarRadius);
 }
 
+.nowPlayingInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;   
+}
 
+#nowplayingsongtitle:hover {
+    text-decoration: underline;
+}
 
+#nowplayingartist {
+    color: #f9fafbbd;
+}
+
+#nowplayingtick:hover {
+    scale: 1.05;
+    opacity: 0.5;
+}
