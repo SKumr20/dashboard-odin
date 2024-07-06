@@ -170,7 +170,7 @@ body {
 }
 
 .mainContent {
-    
+    background-color: var(--maincolor);
 }
 
 .sidebarRight {
