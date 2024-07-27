@@ -175,11 +175,22 @@ body {
 }
 
 .topButtons {
-    background-color: #f9fafb;
-    height: 5%;
+    height: 10%;
     width: 30%;
 }
 
+.topButtons button {
+    transition: 0.3s ease;
+    padding: 10px;
+    border: none;
+    border-radius: var(--buttonradius1);
+    color: var(--sidebarfontcolor);
+    background-color: var(--headercolor);
+}
+
+.topButtons button:hover {
+    opacity: 0.5;
+}
 
 .sidebarRight {
     padding: 15px;
