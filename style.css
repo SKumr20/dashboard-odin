@@ -12,8 +12,6 @@
     --sidebarfontcolor: #f9fafb;
     --buttonradius1: 50px;
     --sidebarRadius: 15px;
-
-
 }
 
 body {
@@ -197,7 +195,7 @@ body {
     background-color: var(--maincolor);
     height: 20%;
     display: grid;
-    gap: 5px;
+    gap: 10px;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
 }
@@ -209,8 +207,7 @@ body {
     color: var(--sidebarfontcolor);
     background-color: var(--sidebarcolor);
     border-radius: 5px;
-    height: 90%;
-    width: 98%;
+    height: 100%;
 }
 
 .topGridbtn img {
