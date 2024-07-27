@@ -171,7 +171,15 @@ body {
 
 .mainContent {
     background-color: var(--maincolor);
+    padding: 15px;
 }
+
+.topButtons {
+    background-color: #f9fafb;
+    height: 5%;
+    width: 30%;
+}
+
 
 .sidebarRight {
     padding: 15px;
