@@ -169,6 +169,8 @@ body {
 
 .mainContent {
     background-color: var(--maincolor);
+    display: flex;
+    flex-direction: column;
     padding: 15px;
 }
 
@@ -212,11 +214,20 @@ body {
 }
 
 .topGridbtn img {
-    height: 100%;
+    height: 99%;
 }
 
 .topGridbtn:hover {
     opacity: 0.7;
+}
+
+.mainTitle {
+    color: var(--sidebarfontcolor);
+    margin-top: 30px;
+}
+
+.musicCards {
+    height: 100%;
 }
 
 .sidebarRight {
