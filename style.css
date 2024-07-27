@@ -208,10 +208,15 @@ body {
     background-color: var(--sidebarcolor);
     border-radius: 5px;
     height: 100%;
+    transition: 0.3s ease;
 }
 
 .topGridbtn img {
     height: 100%;
+}
+
+.topGridbtn:hover {
+    opacity: 0.7;
 }
 
 .sidebarRight {
