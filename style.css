@@ -192,6 +192,31 @@ body {
     opacity: 0.5;
 }
 
+
+.topGrid {
+    background-color: var(--maincolor);
+    height: 20%;
+    display: grid;
+    gap: 5px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.topGridbtn {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    color: var(--sidebarfontcolor);
+    background-color: var(--sidebarcolor);
+    border-radius: 5px;
+    height: 90%;
+    width: 98%;
+}
+
+.topGridbtn img {
+    height: 100%;
+}
+
 .sidebarRight {
     padding: 15px;
     display: flex;
